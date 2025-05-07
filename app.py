@@ -6,7 +6,7 @@ import os
 import traceback
 
 # Configuration
-AGENT_BASE_URL = "http://0.0.0.0:8000"  # ADK local server
+AGENT_BASE_URL = "https://omnipresense-ai.onrender.com/"  # ADK local server
 AGENTS_DIR = "agents"  # Define the agents directory
 
 def get_available_agents(base_path=AGENTS_DIR):
