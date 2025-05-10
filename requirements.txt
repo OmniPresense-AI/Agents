@@ -1,6 +1,5 @@
 google-adk
 pytz
 requests
-python
 python-dotenv
 uvicorn
