@@ -1,0 +1,26 @@
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:lei="http://www.xbrl.org/taxonomy/int/lei/2020-07-02" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:sasb-dei="http://www.sasb.org/xbrl/taxonomy/dei/2024-11-07" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xlink="http://www.w3.org/1999/xlink" targetNamespace="http://www.sasb.org/xbrl/taxonomy/dei/2024-11-07" elementFormDefault="qualified">
+  <xsd:annotation>
+    <xsd:appinfo>
+      <link:roleType id="elr_sasb-dei-defaults" roleURI="http://www.sasb.org/xbrl/taxonomy/sasb-dei-defaults">
+        <link:definition>sasb-dei-defaults</link:definition>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:presentationLink</link:usedOn>
+      </link:roleType>
+    </xsd:appinfo>
+  </xsd:annotation>
+  <xsd:import namespace="http://www.xbrl.org/2003/instance" schemaLocation="http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd"/>
+  <xsd:import namespace="http://www.xbrl.org/taxonomy/int/lei/2020-07-02" schemaLocation="https://www.xbrl.org/taxonomy/int/lei/2020-07-02/lei.xsd"/>
+  <xsd:element id="sasb-dei_DateOfEndOfReportingPeriod" name="DateOfEndOfReportingPeriod" type="xbrli:dateItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration"/>
+  <xsd:element id="sasb-dei_CountryOfIncorporation" name="CountryOfIncorporation" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration"/>
+  <xsd:element id="sasb-dei_DocumentType" name="DocumentType" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration"/>
+  <xsd:element id="sasb-dei_DomicileOfEntity" name="DomicileOfEntity" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration"/>
+  <xsd:element id="sasb-dei_NameOfUltimateParentOfGroup" name="NameOfUltimateParentOfGroup" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration"/>
+  <xsd:element id="sasb-dei_ExplanationOfChangeInNameOfReportingEntityOrOtherMeansOfIdentificationFromEndOfPrecedingReportingPeriod" name="ExplanationOfChangeInNameOfReportingEntityOrOtherMeansOfIdentificationFromEndOfPrecedingReportingPeriod" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration"/>
+  <xsd:element id="sasb-dei_AddressOfRegisteredOfficeOfEntity" name="AddressOfRegisteredOfficeOfEntity" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration"/>
+  <xsd:element id="sasb-dei_DateOfBeginningOfReportingPeriod" name="DateOfBeginningOfReportingPeriod" type="xbrli:dateItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration"/>
+  <xsd:element id="sasb-dei_NameOfParentEntity" name="NameOfParentEntity" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration"/>
+  <xsd:element id="sasb-dei_LegalEntityIdentifier" name="LegalEntityIdentifier" type="lei:leiItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration"/>
+  <xsd:element id="sasb-dei_GeneralInformationLineItems" name="GeneralInformationLineItems" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" nillable="true" xbrli:periodType="duration"/>
+  <xsd:element id="sasb-dei_NameOfReportingEntityOrOtherMeansOfIdentification" name="NameOfReportingEntityOrOtherMeansOfIdentification" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration"/>
+</xsd:schema>

@@ -1,0 +1,330 @@
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd http://www.w3.org/1999/xlink http://www.xbrl.org/2003/xlink-2003-12-31.xsd">
+  <link:arcroleRef arcroleURI="http://xbrl.org/int/dim/arcrole/dimension-default" xlink:type="simple" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#dimension-default"/>
+  <link:roleRef roleURI="http://www.sasb.org/xbrl/taxonomy/sasb-dei-defaults" xlink:type="simple" xlink:href="sasb-dei-2024-11-07.xsd#elr_sasb-dei-defaults"/>
+  <link:definitionLink xlink:role="http://www.sasb.org/xbrl/taxonomy/sasb-dei-defaults" xlink:type="extended">
+    <link:loc xlink:href="sasb-2024-11-07.xsd#sasb_AccidentTypeAxis" xlink:label="loc_1" xlink:type="locator"/>
+    <link:loc xlink:href="sasb-2024-11-07.xsd#sasb_AccidentTypeDomain" xlink:label="loc_2" xlink:type="locator"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-default" order="10.0" xlink:from="loc_1" xlink:to="loc_2"/>
+    <link:loc xlink:href="sasb-2024-11-07.xsd#sasb_AnimalProteinAxis" xlink:label="loc_3" xlink:type="locator"/>
+    <link:loc xlink:href="sasb-2024-11-07.xsd#sasb_AnimalProteinDomain" xlink:label="loc_4" xlink:type="locator"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-default" order="20.0" xlink:from="loc_3" xlink:to="loc_4"/>
+    <link:loc xlink:href="sasb-2024-11-07.xsd#sasb_AnimalTypeAxis" xlink:label="loc_5" xlink:type="locator"/>
+    <link:loc xlink:href="sasb-2024-11-07.xsd#sasb_AnimalTypeDomain" xlink:label="loc_6" xlink:type="locator"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-default" order="30.0" xlink:from="loc_5" xlink:to="loc_6"/>
+    <link:loc xlink:href="sasb-2024-11-07.xsd#sasb_AntibioticsTypeAxis" xlink:label="loc_7" xlink:type="locator"/>
+    <link:loc xlink:href="sasb-2024-11-07.xsd#sasb_AntibioticsTypeDomain" xlink:label="loc_8" xlink:type="locator"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-default" order="40.0" xlink:from="loc_7" xlink:to="loc_8"/>
+    <link:loc xlink:href="sasb-2024-11-07.xsd#sasb_BankCardAccountAxis" xlink:label="loc_9" xlink:type="locator"/>
+    <link:loc xlink:href="sasb-2024-11-07.xsd#sasb_BankCardAccountDomain" xlink:label="loc_10" xlink:type="locator"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-default" order="50.0" xlink:from="loc_9" xlink:to="loc_10"/>
+    <link:loc xlink:href="sasb-2024-11-07.xsd#sasb_BankCardAccountTypeAxis" xlink:label="loc_11" xlink:type="locator"/>
+    <link:loc xlink:href="sasb-2024-11-07.xsd#sasb_BankCardAccountTypeDomain" xlink:label="loc_12" xlink:type="locator"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-default" order="60.0" xlink:from="loc_11" xlink:to="loc_12"/>
+    <link:loc xlink:href="sasb-2024-11-07.xsd#sasb_BankCustomerTypeAxis" xlink:label="loc_13" xlink:type="locator"/>
+    <link:loc xlink:href="sasb-2024-11-07.xsd#sasb_BankCustomerTypeDomain" xlink:label="loc_14" xlink:type="locator"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-default" order="70.0" xlink:from="loc_13" xlink:to="loc_14"/>
+    <link:loc xlink:href="sasb-2024-11-07.xsd#sasb_BatteryAxis" xlink:label="loc_15" xlink:type="locator"/>
+    <link:loc xlink:href="sasb-2024-11-07.xsd#sasb_BatteryDomain" xlink:label="loc_16" xlink:type="locator"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-default" order="80.0" xlink:from="loc_15" xlink:to="loc_16"/>
+    <link:loc xlink:href="sasb-2024-11-07.xsd#sasb_BiofuelTypeAxis" xlink:label="loc_17" xlink:type="locator"/>
+    <link:loc xlink:href="sasb-2024-11-07.xsd#sasb_BiofuelTypeDomain" xlink:label="loc_18" xlink:type="locator"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-default" order="90.0" xlink:from="loc_17" xlink:to="loc_18"/>
+    <link:loc xlink:href="sasb-2024-11-07.xsd#sasb_CoalReserveAnalysisScenarioAxis" xlink:label="loc_19" xlink:type="locator"/>
+    <link:loc xlink:href="sasb-2024-11-07.xsd#sasb_CoalReserveAnalysisScenarioDomain" xlink:label="loc_20" xlink:type="locator"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-default" order="100.0" xlink:from="loc_19" xlink:to="loc_20"/>
+    <link:loc xlink:href="sasb-2024-11-07.xsd#sasb_ContentTypeAxis" xlink:label="loc_21" xlink:type="locator"/>
+    <link:loc xlink:href="sasb-2024-11-07.xsd#sasb_ContentTypeDomain" xlink:label="loc_22" xlink:type="locator"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-default" order="110.0" xlink:from="loc_21" xlink:to="loc_22"/>
+    <link:loc xlink:href="sasb-2024-11-07.xsd#sasb_CountryCorruptionPerceptionRankingAxis" xlink:label="loc_23" xlink:type="locator"/>
+    <link:loc xlink:href="sasb-2024-11-07.xsd#sasb_CountryCorruptionPerceptionRankingDomain" xlink:label="loc_24" xlink:type="locator"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-default" order="120.0" xlink:from="loc_23" xlink:to="loc_24"/>
+    <link:loc xlink:href="sasb-2024-11-07.xsd#sasb_CustomerTypeAxis" xlink:label="loc_25" xlink:type="locator"/>
+    <link:loc xlink:href="sasb-2024-11-07.xsd#sasb_CustomerTypeDomain" xlink:label="loc_26" xlink:type="locator"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-default" order="130.0" xlink:from="loc_25" xlink:to="loc_26"/>
+    <link:loc xlink:href="sasb-2024-11-07.xsd#sasb_DerivativeClearingTypeAxis" xlink:label="loc_27" xlink:type="locator"/>
+    <link:loc xlink:href="sasb-2024-11-07.xsd#sasb_DerivativeClearingTypeDomain" xlink:label="loc_28" xlink:type="locator"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-default" order="140.0" xlink:from="loc_27" xlink:to="loc_28"/>
+    <link:loc xlink:href="sasb-2024-11-07.xsd#sasb_DevicesAndEquipmentAxis" xlink:label="loc_29" xlink:type="locator"/>
+    <link:loc xlink:href="sasb-2024-11-07.xsd#sasb_DevicesAndEquipmentDomain" xlink:label="loc_30" xlink:type="locator"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-default" order="150.0" xlink:from="loc_29" xlink:to="loc_30"/>
+    <link:loc xlink:href="sasb-2024-11-07.xsd#sasb_EmissionAxis" xlink:label="loc_31" xlink:type="locator"/>
+    <link:loc xlink:href="sasb-2024-11-07.xsd#sasb_EmissionDomain" xlink:label="loc_32" xlink:type="locator"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-default" order="160.0" xlink:from="loc_31" xlink:to="loc_32"/>
+    <link:loc xlink:href="sasb-2024-11-07.xsd#sasb_EmissionRegulationAxis" xlink:label="loc_33" xlink:type="locator"/>
+    <link:loc xlink:href="sasb-2024-11-07.xsd#sasb_EmissionRegulationDomain" xlink:label="loc_34" xlink:type="locator"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-default" order="170.0" xlink:from="loc_33" xlink:to="loc_34"/>
+    <link:loc xlink:href="sasb-2024-11-07.xsd#sasb_EmissionSourceAxis" xlink:label="loc_35" xlink:type="locator"/>
+    <link:loc xlink:href="sasb-2024-11-07.xsd#sasb_EmissionSourceDomain" xlink:label="loc_36" xlink:type="locator"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-default" order="180.0" xlink:from="loc_35" xlink:to="loc_36"/>
+    <link:loc xlink:href="sasb-2024-11-07.xsd#sasb_EmployeeByContractTypeAxis" xlink:label="loc_37" xlink:type="locator"/>
+    <link:loc xlink:href="sasb-2024-11-07.xsd#sasb_EmployeeByContractTypeDomain" xlink:label="loc_38" xlink:type="locator"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-default" order="190.0" xlink:from="loc_37" xlink:to="loc_38"/>
+    <link:loc xlink:href="sasb-2024-11-07.xsd#sasb_EmployeeByLocationTypeAxis" xlink:label="loc_39" xlink:type="locator"/>
+    <link:loc xlink:href="sasb-2024-11-07.xsd#sasb_EmployeeByLocationTypeDomain" xlink:label="loc_40" xlink:type="locator"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-default" order="200.0" xlink:from="loc_39" xlink:to="loc_40"/>
+    <link:loc xlink:href="sasb-2024-11-07.xsd#sasb_EmployeeByPositionTypeAxis" xlink:label="loc_41" xlink:type="locator"/>
+    <link:loc xlink:href="sasb-2024-11-07.xsd#sasb_EmployeeByPositionTypeDomain" xlink:label="loc_42" xlink:type="locator"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-default" order="210.0" xlink:from="loc_41" xlink:to="loc_42"/>
+    <link:loc xlink:href="sasb-2024-11-07.xsd#sasb_EmployeeByProfessionTypeAxis" xlink:label="loc_43" xlink:type="locator"/>
+    <link:loc xlink:href="sasb-2024-11-07.xsd#sasb_EmployeeByProfessionTypeDomain" xlink:label="loc_44" xlink:type="locator"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-default" order="220.0" xlink:from="loc_43" xlink:to="loc_44"/>
+    <link:loc xlink:href="sasb-2024-11-07.xsd#sasb_EmployeeEngagementLevelAxis" xlink:label="loc_45" xlink:type="locator"/>
+    <link:loc xlink:href="sasb-2024-11-07.xsd#sasb_EmployeeEngagementLevelDomain" xlink:label="loc_46" xlink:type="locator"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-default" order="230.0" xlink:from="loc_45" xlink:to="loc_46"/>
+    <link:loc xlink:href="sasb-2024-11-07.xsd#sasb_EnergyEfficiencyStandardAxis" xlink:label="loc_47" xlink:type="locator"/>
+    <link:loc xlink:href="sasb-2024-11-07.xsd#sasb_EnergyEfficiencyStandardDomain" xlink:label="loc_48" xlink:type="locator"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-default" order="240.0" xlink:from="loc_47" xlink:to="loc_48"/>
+    <link:loc xlink:href="sasb-2024-11-07.xsd#sasb_EnergySourceAxis" xlink:label="loc_49" xlink:type="locator"/>
+    <link:loc xlink:href="sasb-2024-11-07.xsd#sasb_EnergySourceDomain" xlink:label="loc_50" xlink:type="locator"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-default" order="250.0" xlink:from="loc_49" xlink:to="loc_50"/>
+    <link:loc xlink:href="sasb-2024-11-07.xsd#sasb_EnergyUseAxis" xlink:label="loc_51" xlink:type="locator"/>
+    <link:loc xlink:href="sasb-2024-11-07.xsd#sasb_EnergyUseDomain" xlink:label="loc_52" xlink:type="locator"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-default" order="260.0" xlink:from="loc_51" xlink:to="loc_52"/>
+    <link:loc xlink:href="sasb-2024-11-07.xsd#sasb_EngineTypeAxis" xlink:label="loc_53" xlink:type="locator"/>
+    <link:loc xlink:href="sasb-2024-11-07.xsd#sasb_EngineTypeDomain" xlink:label="loc_54" xlink:type="locator"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-default" order="270.0" xlink:from="loc_53" xlink:to="loc_54"/>
+    <link:loc xlink:href="sasb-2024-11-07.xsd#sasb_EnvironmentalProductLifecycleStandardAxis" xlink:label="loc_55" xlink:type="locator"/>
+    <link:loc xlink:href="sasb-2024-11-07.xsd#sasb_EnvironmentalProductLifecycleStandardDomain" xlink:label="loc_56" xlink:type="locator"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-default" order="280.0" xlink:from="loc_55" xlink:to="loc_56"/>
+    <link:loc xlink:href="sasb-2024-11-07.xsd#sasb_FacilityManagementTypeAxis" xlink:label="loc_57" xlink:type="locator"/>
+    <link:loc xlink:href="sasb-2024-11-07.xsd#sasb_FacilityManagementTypeDomain" xlink:label="loc_58" xlink:type="locator"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-default" order="290.0" xlink:from="loc_57" xlink:to="loc_58"/>
+    <link:loc xlink:href="sasb-2024-11-07.xsd#sasb_FacilityRiskRatingAxis" xlink:label="loc_59" xlink:type="locator"/>
+    <link:loc xlink:href="sasb-2024-11-07.xsd#sasb_FacilityRiskRatingDomain" xlink:label="loc_60" xlink:type="locator"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-default" order="300.0" xlink:from="loc_59" xlink:to="loc_60"/>
+    <link:loc xlink:href="sasb-2024-11-07.xsd#sasb_FacilityTypeAxis" xlink:label="loc_61" xlink:type="locator"/>
+    <link:loc xlink:href="sasb-2024-11-07.xsd#sasb_FacilityTypeDomain" xlink:label="loc_62" xlink:type="locator"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-default" order="310.0" xlink:from="loc_61" xlink:to="loc_62"/>
+    <link:loc xlink:href="sasb-2024-11-07.xsd#sasb_FinancedEmissionsAssetClassAxis" xlink:label="loc_63" xlink:type="locator"/>
+    <link:loc xlink:href="sasb-2024-11-07.xsd#sasb_FinancedEmissionsAssetClassDomain" xlink:label="loc_64" xlink:type="locator"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-default" order="320.0" xlink:from="loc_63" xlink:to="loc_64"/>
+    <link:loc xlink:href="sasb-2024-11-07.xsd#sasb_FleetTypeAxis" xlink:label="loc_65" xlink:type="locator"/>
+    <link:loc xlink:href="sasb-2024-11-07.xsd#sasb_FleetTypeDomain" xlink:label="loc_66" xlink:type="locator"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-default" order="330.0" xlink:from="loc_65" xlink:to="loc_66"/>
+    <link:loc xlink:href="sasb-2024-11-07.xsd#sasb_FraudTypeAxis" xlink:label="loc_67" xlink:type="locator"/>
+    <link:loc xlink:href="sasb-2024-11-07.xsd#sasb_FraudTypeDomain" xlink:label="loc_68" xlink:type="locator"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-default" order="340.0" xlink:from="loc_67" xlink:to="loc_68"/>
+    <link:loc xlink:href="sasb-2024-11-07.xsd#sasb_FuelCellAxis" xlink:label="loc_69" xlink:type="locator"/>
+    <link:loc xlink:href="sasb-2024-11-07.xsd#sasb_FuelCellDomain" xlink:label="loc_70" xlink:type="locator"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-default" order="350.0" xlink:from="loc_69" xlink:to="loc_70"/>
+    <link:loc xlink:href="sasb-2024-11-07.xsd#sasb_FuelSourceAxis" xlink:label="loc_71" xlink:type="locator"/>
+    <link:loc xlink:href="sasb-2024-11-07.xsd#sasb_FuelSourceDomain" xlink:label="loc_72" xlink:type="locator"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-default" order="360.0" xlink:from="loc_71" xlink:to="loc_72"/>
+    <link:loc xlink:href="sasb-2024-11-07.xsd#sasb_FuelUseAxis" xlink:label="loc_73" xlink:type="locator"/>
+    <link:loc xlink:href="sasb-2024-11-07.xsd#sasb_FuelUseDomain" xlink:label="loc_74" xlink:type="locator"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-default" order="370.0" xlink:from="loc_73" xlink:to="loc_74"/>
+    <link:loc xlink:href="sasb-2024-11-07.xsd#sasb_GSIBScoreCategoryAxis" xlink:label="loc_75" xlink:type="locator"/>
+    <link:loc xlink:href="sasb-2024-11-07.xsd#sasb_GSIBScoreCategoryDomain" xlink:label="loc_76" xlink:type="locator"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-default" order="380.0" xlink:from="loc_75" xlink:to="loc_76"/>
+    <link:loc xlink:href="sasb-2024-11-07.xsd#sasb_GenderAxis" xlink:label="loc_77" xlink:type="locator"/>
+    <link:loc xlink:href="sasb-2024-11-07.xsd#sasb_GenderDomain" xlink:label="loc_78" xlink:type="locator"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-default" order="390.0" xlink:from="loc_77" xlink:to="loc_78"/>
+    <link:loc xlink:href="sasb-2024-11-07.xsd#sasb_GeographicalAreasAxis" xlink:label="loc_79" xlink:type="locator"/>
+    <link:loc xlink:href="sasb-2024-11-07.xsd#sasb_GeographicalAreasDomain" xlink:label="loc_80" xlink:type="locator"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-default" order="400.0" xlink:from="loc_79" xlink:to="loc_80"/>
+    <link:loc xlink:href="sasb-2024-11-07.xsd#sasb_GeographicalAxis" xlink:label="loc_81" xlink:type="locator"/>
+    <link:loc xlink:href="sasb-2024-11-07.xsd#sasb_GeographicalDomain" xlink:label="loc_82" xlink:type="locator"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-default" order="410.0" xlink:from="loc_81" xlink:to="loc_82"/>
+    <link:loc xlink:href="sasb-2024-11-07.xsd#sasb_HazardousMaterialReleaseTypeAxis" xlink:label="loc_83" xlink:type="locator"/>
+    <link:loc xlink:href="sasb-2024-11-07.xsd#sasb_HazardousMaterialReleaseTypeDomain" xlink:label="loc_84" xlink:type="locator"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-default" order="420.0" xlink:from="loc_83" xlink:to="loc_84"/>
+    <link:loc xlink:href="sasb-2024-11-07.xsd#sasb_HazardousSpillReleaseAxis" xlink:label="loc_85" xlink:type="locator"/>
+    <link:loc xlink:href="sasb-2024-11-07.xsd#sasb_HazardousSpillReleaseDomain" xlink:label="loc_86" xlink:type="locator"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-default" order="430.0" xlink:from="loc_85" xlink:to="loc_86"/>
+    <link:loc xlink:href="sasb-2024-11-07.xsd#sasb_HydrocarbonReserveAnalysisScenarioAxis" xlink:label="loc_87" xlink:type="locator"/>
+    <link:loc xlink:href="sasb-2024-11-07.xsd#sasb_HydrocarbonReserveAnalysisScenarioDomain" xlink:label="loc_88" xlink:type="locator"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-default" order="440.0" xlink:from="loc_87" xlink:to="loc_88"/>
+    <link:loc xlink:href="sasb-2024-11-07.xsd#sasb_IECWindTurbineClassAxis" xlink:label="loc_89" xlink:type="locator"/>
+    <link:loc xlink:href="sasb-2024-11-07.xsd#sasb_IECWindTurbineClassDomain" xlink:label="loc_90" xlink:type="locator"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-default" order="450.0" xlink:from="loc_89" xlink:to="loc_90"/>
+    <link:loc xlink:href="sasb-2024-11-07.xsd#sasb_IndependentNuclearSafetyReviewResultAxis" xlink:label="loc_91" xlink:type="locator"/>
+    <link:loc xlink:href="sasb-2024-11-07.xsd#sasb_IndependentNuclearSafetyReviewResultDomain" xlink:label="loc_92" xlink:type="locator"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-default" order="460.0" xlink:from="loc_91" xlink:to="loc_92"/>
+    <link:loc xlink:href="sasb-2024-11-07.xsd#sasb_InspectionClassificationAxis" xlink:label="loc_93" xlink:type="locator"/>
+    <link:loc xlink:href="sasb-2024-11-07.xsd#sasb_InspectionClassificationDomain" xlink:label="loc_94" xlink:type="locator"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-default" order="470.0" xlink:from="loc_93" xlink:to="loc_94"/>
+    <link:loc xlink:href="sasb-2024-11-07.xsd#sasb_InsuranceSegmentAxis" xlink:label="loc_95" xlink:type="locator"/>
+    <link:loc xlink:href="sasb-2024-11-07.xsd#sasb_InsuranceSegmentDomain" xlink:label="loc_96" xlink:type="locator"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-default" order="480.0" xlink:from="loc_95" xlink:to="loc_96"/>
+    <link:loc xlink:href="sasb-2024-11-07.xsd#sasb_IntegrityCategoryAxis" xlink:label="loc_97" xlink:type="locator"/>
+    <link:loc xlink:href="sasb-2024-11-07.xsd#sasb_IntegrityCategoryDomain" xlink:label="loc_98" xlink:type="locator"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-default" order="490.0" xlink:from="loc_97" xlink:to="loc_98"/>
+    <link:loc xlink:href="sasb-2024-11-07.xsd#sasb_IssueTypeAxis" xlink:label="loc_99" xlink:type="locator"/>
+    <link:loc xlink:href="sasb-2024-11-07.xsd#sasb_IssueTypeDomain" xlink:label="loc_100" xlink:type="locator"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-default" order="500.0" xlink:from="loc_99" xlink:to="loc_100"/>
+    <link:loc xlink:href="sasb-2024-11-07.xsd#sasb_JurisdictionAxis" xlink:label="loc_101" xlink:type="locator"/>
+    <link:loc xlink:href="sasb-2024-11-07.xsd#sasb_JurisdictionDomain" xlink:label="loc_102" xlink:type="locator"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-default" order="510.0" xlink:from="loc_101" xlink:to="loc_102"/>
+    <link:loc xlink:href="sasb-2024-11-07.xsd#sasb_LandAreaAxis" xlink:label="loc_103" xlink:type="locator"/>
+    <link:loc xlink:href="sasb-2024-11-07.xsd#sasb_LandAreaDomain" xlink:label="loc_104" xlink:type="locator"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-default" order="520.0" xlink:from="loc_103" xlink:to="loc_104"/>
+    <link:loc xlink:href="sasb-2024-11-07.xsd#sasb_LegalProceedingAssociationAxis" xlink:label="loc_105" xlink:type="locator"/>
+    <link:loc xlink:href="sasb-2024-11-07.xsd#sasb_LegalProceedingAssociationDomain" xlink:label="loc_106" xlink:type="locator"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-default" order="530.0" xlink:from="loc_105" xlink:to="loc_106"/>
+    <link:loc xlink:href="sasb-2024-11-07.xsd#sasb_LikelihoodOfExceedanceAxis" xlink:label="loc_107" xlink:type="locator"/>
+    <link:loc xlink:href="sasb-2024-11-07.xsd#sasb_LikelihoodOfExceedanceDomain" xlink:label="loc_108" xlink:type="locator"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-default" order="540.0" xlink:from="loc_107" xlink:to="loc_108"/>
+    <link:loc xlink:href="sasb-2024-11-07.xsd#sasb_MaterialAxis" xlink:label="loc_109" xlink:type="locator"/>
+    <link:loc xlink:href="sasb-2024-11-07.xsd#sasb_MaterialDomain" xlink:label="loc_110" xlink:type="locator"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-default" order="550.0" xlink:from="loc_109" xlink:to="loc_110"/>
+    <link:loc xlink:href="sasb-2024-11-07.xsd#sasb_MediationAndArbitrationCounterpartyAxis" xlink:label="loc_111" xlink:type="locator"/>
+    <link:loc xlink:href="sasb-2024-11-07.xsd#sasb_MediationAndArbitrationCounterpartyDomain" xlink:label="loc_112" xlink:type="locator"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-default" order="560.0" xlink:from="loc_111" xlink:to="loc_112"/>
+    <link:loc xlink:href="sasb-2024-11-07.xsd#sasb_MedicalProductsAxis" xlink:label="loc_113" xlink:type="locator"/>
+    <link:loc xlink:href="sasb-2024-11-07.xsd#sasb_MedicalProductsDomain" xlink:label="loc_114" xlink:type="locator"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-default" order="570.0" xlink:from="loc_113" xlink:to="loc_114"/>
+    <link:loc xlink:href="sasb-2024-11-07.xsd#sasb_ModeOfTransportAxis" xlink:label="loc_115" xlink:type="locator"/>
+    <link:loc xlink:href="sasb-2024-11-07.xsd#sasb_ModeOfTransportDomain" xlink:label="loc_116" xlink:type="locator"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-default" order="580.0" xlink:from="loc_115" xlink:to="loc_116"/>
+    <link:loc xlink:href="sasb-2024-11-07.xsd#sasb_MortgageBorrowerAxis" xlink:label="loc_117" xlink:type="locator"/>
+    <link:loc xlink:href="sasb-2024-11-07.xsd#sasb_MortgageBorrowerDomain" xlink:label="loc_118" xlink:type="locator"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-default" order="590.0" xlink:from="loc_117" xlink:to="loc_118"/>
+    <link:loc xlink:href="sasb-2024-11-07.xsd#sasb_MortgageLoanTypeAxis" xlink:label="loc_119" xlink:type="locator"/>
+    <link:loc xlink:href="sasb-2024-11-07.xsd#sasb_MortgageLoanTypeDomain" xlink:label="loc_120" xlink:type="locator"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-default" order="600.0" xlink:from="loc_119" xlink:to="loc_120"/>
+    <link:loc xlink:href="sasb-2024-11-07.xsd#sasb_MortgageTypeAxis" xlink:label="loc_121" xlink:type="locator"/>
+    <link:loc xlink:href="sasb-2024-11-07.xsd#sasb_MortgageTypeDomain" xlink:label="loc_122" xlink:type="locator"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-default" order="610.0" xlink:from="loc_121" xlink:to="loc_122"/>
+    <link:loc xlink:href="sasb-2024-11-07.xsd#sasb_NaturalPerilCatastropheAxis" xlink:label="loc_123" xlink:type="locator"/>
+    <link:loc xlink:href="sasb-2024-11-07.xsd#sasb_NaturalPerilCatastropheDomain" xlink:label="loc_124" xlink:type="locator"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-default" order="620.0" xlink:from="loc_123" xlink:to="loc_124"/>
+    <link:loc xlink:href="sasb-2024-11-07.xsd#sasb_NaturalPerilCatastropheTypeAxis" xlink:label="loc_125" xlink:type="locator"/>
+    <link:loc xlink:href="sasb-2024-11-07.xsd#sasb_NaturalPerilCatastropheTypeDomain" xlink:label="loc_126" xlink:type="locator"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-default" order="630.0" xlink:from="loc_125" xlink:to="loc_126"/>
+    <link:loc xlink:href="sasb-2024-11-07.xsd#sasb_NewCarAssessmentProgramAxis" xlink:label="loc_127" xlink:type="locator"/>
+    <link:loc xlink:href="sasb-2024-11-07.xsd#sasb_NewCarAssessmentProgramDomain" xlink:label="loc_128" xlink:type="locator"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-default" order="640.0" xlink:from="loc_127" xlink:to="loc_128"/>
+    <link:loc xlink:href="sasb-2024-11-07.xsd#sasb_NoncomplianceTypeAxis" xlink:label="loc_129" xlink:type="locator"/>
+    <link:loc xlink:href="sasb-2024-11-07.xsd#sasb_NoncomplianceTypeDomain" xlink:label="loc_130" xlink:type="locator"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-default" order="650.0" xlink:from="loc_129" xlink:to="loc_130"/>
+    <link:loc xlink:href="sasb-2024-11-07.xsd#sasb_NonconformanceSeverityAxis" xlink:label="loc_131" xlink:type="locator"/>
+    <link:loc xlink:href="sasb-2024-11-07.xsd#sasb_NonconformanceSeverityDomain" xlink:label="loc_132" xlink:type="locator"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-default" order="660.0" xlink:from="loc_131" xlink:to="loc_132"/>
+    <link:loc xlink:href="sasb-2024-11-07.xsd#sasb_PatientTypeAxis" xlink:label="loc_133" xlink:type="locator"/>
+    <link:loc xlink:href="sasb-2024-11-07.xsd#sasb_PatientTypeDomain" xlink:label="loc_134" xlink:type="locator"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-default" order="670.0" xlink:from="loc_133" xlink:to="loc_134"/>
+    <link:loc xlink:href="sasb-2024-11-07.xsd#sasb_PipeAxis" xlink:label="loc_135" xlink:type="locator"/>
+    <link:loc xlink:href="sasb-2024-11-07.xsd#sasb_PipeDomain" xlink:label="loc_136" xlink:type="locator"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-default" order="680.0" xlink:from="loc_135" xlink:to="loc_136"/>
+    <link:loc xlink:href="sasb-2024-11-07.xsd#sasb_PipelineAxis" xlink:label="loc_137" xlink:type="locator"/>
+    <link:loc xlink:href="sasb-2024-11-07.xsd#sasb_PipelineDomain" xlink:label="loc_138" xlink:type="locator"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-default" order="690.0" xlink:from="loc_137" xlink:to="loc_138"/>
+    <link:loc xlink:href="sasb-2024-11-07.xsd#sasb_PollutantAxis" xlink:label="loc_139" xlink:type="locator"/>
+    <link:loc xlink:href="sasb-2024-11-07.xsd#sasb_PollutantDomain" xlink:label="loc_140" xlink:type="locator"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-default" order="700.0" xlink:from="loc_139" xlink:to="loc_140"/>
+    <link:loc xlink:href="sasb-2024-11-07.xsd#sasb_PortfolioAreaWithDataCoverageAxis" xlink:label="loc_141" xlink:type="locator"/>
+    <link:loc xlink:href="sasb-2024-11-07.xsd#sasb_PortfolioAreaWithDataCoverageDomain" xlink:label="loc_142" xlink:type="locator"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-default" order="710.0" xlink:from="loc_141" xlink:to="loc_142"/>
+    <link:loc xlink:href="sasb-2024-11-07.xsd#sasb_PriorityRawMaterialsAxis" xlink:label="loc_143" xlink:type="locator"/>
+    <link:loc xlink:href="sasb-2024-11-07.xsd#sasb_PriorityRawMaterialsDomain" xlink:label="loc_144" xlink:type="locator"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-default" order="720.0" xlink:from="loc_143" xlink:to="loc_144"/>
+    <link:loc xlink:href="sasb-2024-11-07.xsd#sasb_ProcessSafetyEventTypeAxis" xlink:label="loc_145" xlink:type="locator"/>
+    <link:loc xlink:href="sasb-2024-11-07.xsd#sasb_ProcessSafetyEventTypeDomain" xlink:label="loc_146" xlink:type="locator"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-default" order="730.0" xlink:from="loc_145" xlink:to="loc_146"/>
+    <link:loc xlink:href="sasb-2024-11-07.xsd#sasb_ProductCategoryAxis" xlink:label="loc_147" xlink:type="locator"/>
+    <link:loc xlink:href="sasb-2024-11-07.xsd#sasb_ProductCategoryDomain" xlink:label="loc_148" xlink:type="locator"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-default" order="740.0" xlink:from="loc_147" xlink:to="loc_148"/>
+    <link:loc xlink:href="sasb-2024-11-07.xsd#sasb_ProductOrAssetClassAxis" xlink:label="loc_149" xlink:type="locator"/>
+    <link:loc xlink:href="sasb-2024-11-07.xsd#sasb_ProductOrAssetClassDomain" xlink:label="loc_150" xlink:type="locator"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-default" order="750.0" xlink:from="loc_149" xlink:to="loc_150"/>
+    <link:loc xlink:href="sasb-2024-11-07.xsd#sasb_ProductTypeAxis" xlink:label="loc_151" xlink:type="locator"/>
+    <link:loc xlink:href="sasb-2024-11-07.xsd#sasb_ProductTypeDomain" xlink:label="loc_152" xlink:type="locator"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-default" order="760.0" xlink:from="loc_151" xlink:to="loc_152"/>
+    <link:loc xlink:href="sasb-2024-11-07.xsd#sasb_ProductionMaterialAxis" xlink:label="loc_153" xlink:type="locator"/>
+    <link:loc xlink:href="sasb-2024-11-07.xsd#sasb_ProductionMaterialDomain" xlink:label="loc_154" xlink:type="locator"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-default" order="770.0" xlink:from="loc_153" xlink:to="loc_154"/>
+    <link:loc xlink:href="sasb-2024-11-07.xsd#sasb_PropertyManagementClientTypeAxis" xlink:label="loc_155" xlink:type="locator"/>
+    <link:loc xlink:href="sasb-2024-11-07.xsd#sasb_PropertyManagementClientTypeDomain" xlink:label="loc_156" xlink:type="locator"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-default" order="780.0" xlink:from="loc_155" xlink:to="loc_156"/>
+    <link:loc xlink:href="sasb-2024-11-07.xsd#sasb_PropertySectorAxis" xlink:label="loc_157" xlink:type="locator"/>
+    <link:loc xlink:href="sasb-2024-11-07.xsd#sasb_PropertySectorDomain" xlink:label="loc_158" xlink:type="locator"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-default" order="790.0" xlink:from="loc_157" xlink:to="loc_158"/>
+    <link:loc xlink:href="sasb-2024-11-07.xsd#sasb_RSPOSupplyChainModelAxis" xlink:label="loc_159" xlink:type="locator"/>
+    <link:loc xlink:href="sasb-2024-11-07.xsd#sasb_RSPOSupplyChainModelDomain" xlink:label="loc_160" xlink:type="locator"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-default" order="800.0" xlink:from="loc_159" xlink:to="loc_160"/>
+    <link:loc xlink:href="sasb-2024-11-07.xsd#sasb_RateStructureAxis" xlink:label="loc_161" xlink:type="locator"/>
+    <link:loc xlink:href="sasb-2024-11-07.xsd#sasb_RateStructureDomain" xlink:label="loc_162" xlink:type="locator"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-default" order="810.0" xlink:from="loc_161" xlink:to="loc_162"/>
+    <link:loc xlink:href="sasb-2024-11-07.xsd#sasb_RawSteelProductionMethodAxis" xlink:label="loc_163" xlink:type="locator"/>
+    <link:loc xlink:href="sasb-2024-11-07.xsd#sasb_RawSteelProductionMethodDomain" xlink:label="loc_164" xlink:type="locator"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-default" order="820.0" xlink:from="loc_163" xlink:to="loc_164"/>
+    <link:loc xlink:href="sasb-2024-11-07.xsd#sasb_RealEstateEnergyRatingStandardAxis" xlink:label="loc_165" xlink:type="locator"/>
+    <link:loc xlink:href="sasb-2024-11-07.xsd#sasb_RealEstateEnergyRatingStandardDomain" xlink:label="loc_166" xlink:type="locator"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-default" order="830.0" xlink:from="loc_165" xlink:to="loc_166"/>
+    <link:loc xlink:href="sasb-2024-11-07.xsd#sasb_RecallTypeAxis" xlink:label="loc_167" xlink:type="locator"/>
+    <link:loc xlink:href="sasb-2024-11-07.xsd#sasb_RecallTypeDomain" xlink:label="loc_168" xlink:type="locator"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-default" order="840.0" xlink:from="loc_167" xlink:to="loc_168"/>
+    <link:loc xlink:href="sasb-2024-11-07.xsd#sasb_RevenueSourceAxis" xlink:label="loc_169" xlink:type="locator"/>
+    <link:loc xlink:href="sasb-2024-11-07.xsd#sasb_RevenueSourceDomain" xlink:label="loc_170" xlink:type="locator"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-default" order="850.0" xlink:from="loc_169" xlink:to="loc_170"/>
+    <link:loc xlink:href="sasb-2024-11-07.xsd#sasb_ReworkTypeAxis" xlink:label="loc_171" xlink:type="locator"/>
+    <link:loc xlink:href="sasb-2024-11-07.xsd#sasb_ReworkTypeDomain" xlink:label="loc_172" xlink:type="locator"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-default" order="860.0" xlink:from="loc_171" xlink:to="loc_172"/>
+    <link:loc xlink:href="sasb-2024-11-07.xsd#sasb_ServiceDisruptionsLengthOfDurationAxis" xlink:label="loc_173" xlink:type="locator"/>
+    <link:loc xlink:href="sasb-2024-11-07.xsd#sasb_ServiceDisruptionsLengthOfDurationDomain" xlink:label="loc_174" xlink:type="locator"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-default" order="870.0" xlink:from="loc_173" xlink:to="loc_174"/>
+    <link:loc xlink:href="sasb-2024-11-07.xsd#sasb_ServiceTypeAxis" xlink:label="loc_175" xlink:type="locator"/>
+    <link:loc xlink:href="sasb-2024-11-07.xsd#sasb_ServiceTypeDomain" xlink:label="loc_176" xlink:type="locator"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-default" order="880.0" xlink:from="loc_175" xlink:to="loc_176"/>
+    <link:loc xlink:href="sasb-2024-11-07.xsd#sasb_SewerTypeAxis" xlink:label="loc_177" xlink:type="locator"/>
+    <link:loc xlink:href="sasb-2024-11-07.xsd#sasb_SewerTypeDomain" xlink:label="loc_178" xlink:type="locator"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-default" order="890.0" xlink:from="loc_177" xlink:to="loc_178"/>
+    <link:loc xlink:href="sasb-2024-11-07.xsd#sasb_SignificantMarketDisruptionAxis" xlink:label="loc_179" xlink:type="locator"/>
+    <link:loc xlink:href="sasb-2024-11-07.xsd#sasb_SignificantMarketDisruptionDomain" xlink:label="loc_180" xlink:type="locator"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-default" order="900.0" xlink:from="loc_179" xlink:to="loc_180"/>
+    <link:loc xlink:href="sasb-2024-11-07.xsd#sasb_SpillReleaseAxis" xlink:label="loc_181" xlink:type="locator"/>
+    <link:loc xlink:href="sasb-2024-11-07.xsd#sasb_SpillReleaseDomain" xlink:label="loc_182" xlink:type="locator"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-default" order="910.0" xlink:from="loc_181" xlink:to="loc_182"/>
+    <link:loc xlink:href="sasb-2024-11-07.xsd#sasb_StandardAxis" xlink:label="loc_183" xlink:type="locator"/>
+    <link:loc xlink:href="sasb-2024-11-07.xsd#sasb_StandardDomain" xlink:label="loc_184" xlink:type="locator"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-default" order="920.0" xlink:from="loc_183" xlink:to="loc_184"/>
+    <link:loc xlink:href="sasb-2024-11-07.xsd#sasb_StatementBusinessSegmentsAxis" xlink:label="loc_185" xlink:type="locator"/>
+    <link:loc xlink:href="sasb-2024-11-07.xsd#sasb_SegmentDomain" xlink:label="loc_186" xlink:type="locator"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-default" order="930.0" xlink:from="loc_185" xlink:to="loc_186"/>
+    <link:loc xlink:href="sasb-2024-11-07.xsd#sasb_SubstrateAxis" xlink:label="loc_187" xlink:type="locator"/>
+    <link:loc xlink:href="sasb-2024-11-07.xsd#sasb_SubstrateDomain" xlink:label="loc_188" xlink:type="locator"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-default" order="940.0" xlink:from="loc_187" xlink:to="loc_188"/>
+    <link:loc xlink:href="sasb-2024-11-07.xsd#sasb_SupplierTierAxis" xlink:label="loc_189" xlink:type="locator"/>
+    <link:loc xlink:href="sasb-2024-11-07.xsd#sasb_SupplierTierDomain" xlink:label="loc_190" xlink:type="locator"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-default" order="950.0" xlink:from="loc_189" xlink:to="loc_190"/>
+    <link:loc xlink:href="sasb-2024-11-07.xsd#sasb_SuppliesAxis" xlink:label="loc_191" xlink:type="locator"/>
+    <link:loc xlink:href="sasb-2024-11-07.xsd#sasb_SuppliesDomain" xlink:label="loc_192" xlink:type="locator"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-default" order="960.0" xlink:from="loc_191" xlink:to="loc_192"/>
+    <link:loc xlink:href="sasb-2024-11-07.xsd#sasb_SustainabilityrelatedProjectsTechnologiesAndActivitiesAxis" xlink:label="loc_193" xlink:type="locator"/>
+    <link:loc xlink:href="sasb-2024-11-07.xsd#sasb_SustainabilityrelatedProjectsTechnologiesAndActivitiesDomain" xlink:label="loc_194" xlink:type="locator"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-default" order="970.0" xlink:from="loc_193" xlink:to="loc_194"/>
+    <link:loc xlink:href="sasb-2024-11-07.xsd#sasb_ThirdPartyEnvironmentalOrSocialStandardAxis" xlink:label="loc_195" xlink:type="locator"/>
+    <link:loc xlink:href="sasb-2024-11-07.xsd#sasb_ThirdPartyEnvironmentalOrSocialStandardDomain" xlink:label="loc_196" xlink:type="locator"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-default" order="980.0" xlink:from="loc_195" xlink:to="loc_196"/>
+    <link:loc xlink:href="sasb-2024-11-07.xsd#sasb_ThirdPartyForestManagementStandardAxis" xlink:label="loc_197" xlink:type="locator"/>
+    <link:loc xlink:href="sasb-2024-11-07.xsd#sasb_ThirdPartyForestManagementStandardDomain" xlink:label="loc_198" xlink:type="locator"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-default" order="990.0" xlink:from="loc_197" xlink:to="loc_198"/>
+    <link:loc xlink:href="sasb-2024-11-07.xsd#sasb_TransactionTypeAxis" xlink:label="loc_199" xlink:type="locator"/>
+    <link:loc xlink:href="sasb-2024-11-07.xsd#sasb_TransactionTypeDomain" xlink:label="loc_200" xlink:type="locator"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-default" order="1000.0" xlink:from="loc_199" xlink:to="loc_200"/>
+    <link:loc xlink:href="sasb-2024-11-07.xsd#sasb_TransportTypeAxis" xlink:label="loc_201" xlink:type="locator"/>
+    <link:loc xlink:href="sasb-2024-11-07.xsd#sasb_TransportTypeDomain" xlink:label="loc_202" xlink:type="locator"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-default" order="1010.0" xlink:from="loc_201" xlink:to="loc_202"/>
+    <link:loc xlink:href="sasb-2024-11-07.xsd#sasb_VehicleTypeAxis" xlink:label="loc_203" xlink:type="locator"/>
+    <link:loc xlink:href="sasb-2024-11-07.xsd#sasb_VehicleTypeDomain" xlink:label="loc_204" xlink:type="locator"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-default" order="1020.0" xlink:from="loc_203" xlink:to="loc_204"/>
+    <link:loc xlink:href="sasb-2024-11-07.xsd#sasb_WasteAxis" xlink:label="loc_205" xlink:type="locator"/>
+    <link:loc xlink:href="sasb-2024-11-07.xsd#sasb_WasteDomain" xlink:label="loc_206" xlink:type="locator"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-default" order="1030.0" xlink:from="loc_205" xlink:to="loc_206"/>
+    <link:loc xlink:href="sasb-2024-11-07.xsd#sasb_WaterSourceTypeAxis" xlink:label="loc_207" xlink:type="locator"/>
+    <link:loc xlink:href="sasb-2024-11-07.xsd#sasb_WaterSourceTypeDomain" xlink:label="loc_208" xlink:type="locator"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-default" order="1040.0" xlink:from="loc_207" xlink:to="loc_208"/>
+    <link:loc xlink:href="sasb-2024-11-07.xsd#sasb_WellSiteTypeAxis" xlink:label="loc_209" xlink:type="locator"/>
+    <link:loc xlink:href="sasb-2024-11-07.xsd#sasb_WellSiteTypeDomain" xlink:label="loc_210" xlink:type="locator"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-default" order="1050.0" xlink:from="loc_209" xlink:to="loc_210"/>
+    <link:loc xlink:href="sasb-2024-11-07.xsd#sasb_WellnessProgramAxis" xlink:label="loc_211" xlink:type="locator"/>
+    <link:loc xlink:href="sasb-2024-11-07.xsd#sasb_WellnessProgramDomain" xlink:label="loc_212" xlink:type="locator"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-default" order="1060.0" xlink:from="loc_211" xlink:to="loc_212"/>
+    <link:loc xlink:href="sasb-2024-11-07.xsd#sasb_WoodFibreSourceAxis" xlink:label="loc_213" xlink:type="locator"/>
+    <link:loc xlink:href="sasb-2024-11-07.xsd#sasb_WoodFibreSourceDomain" xlink:label="loc_214" xlink:type="locator"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-default" order="1070.0" xlink:from="loc_213" xlink:to="loc_214"/>
+    <link:loc xlink:href="sasb-2024-11-07.xsd#sasb_WoodFibreStandardAxis" xlink:label="loc_215" xlink:type="locator"/>
+    <link:loc xlink:href="sasb-2024-11-07.xsd#sasb_WoodFibreStandardDomain" xlink:label="loc_216" xlink:type="locator"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-default" order="1080.0" xlink:from="loc_215" xlink:to="loc_216"/>
+  </link:definitionLink>
+</link:linkbase>

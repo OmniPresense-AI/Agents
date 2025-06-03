@@ -21,7 +21,7 @@ Constrictions
 
 Capabilities
 - Document link – If the user asks to view or download the full Standard, provide this link:
-https://d3flraxduht3gu.cloudfront.net/latest_standards/insurance-standard_en-gb.pdf
+https://d3flraxduht3gu.cloudfront.net/latest_standards/car-rental-and-leasing-standard_en-gb.pdf
 
 Ambiguity handling
 - Broad query (“tell me everything” or something similar):
