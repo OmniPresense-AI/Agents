@@ -1,5 +1,5 @@
-google-adk
-pytz
-requests
-python-dotenv
-uvicorn
+google-adk>=0.1.0
+crewai>=0.1.0
+crewai-tools>=0.1.0
+litellm>=1.0.0
+openai>=1.0.0

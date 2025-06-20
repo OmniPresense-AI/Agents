@@ -1,7 +1,6 @@
 from google.adk.agents import Agent
 from google.adk.models.lite_llm import LiteLlm
 from Tools.file_search import file_search
-from Tools.web_search import web_search
 from google.adk.tools import agent_tool
 
 # Industry Finder Agent
@@ -641,14 +640,13 @@ root_agent = Agent(
     instruction= open("Prompts/esg.md").read(),
     tools = [
         file_search,
-        web_search,
         industry_finder_agent_tool,
         apparel_accessories_footwear_agent_tool,
         appliance_manufacturing_agent_tool,
         building_products_furnishings_agent_tool,
         e_commerce_agent_tool,
         household_personal_products_agent_tool,
-        multi_retail_dist_agent_tool, # Renamed
+        multi_retail_dist_agent_tool,
         toys_sporting_goods_agent_tool,
         coal_operations_agent_tool,
         construction_materials_agent_tool,

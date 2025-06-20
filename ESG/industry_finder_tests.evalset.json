@@ -1,0 +1,203 @@
+{
+  "eval_set_id": "industry_finder_tests",
+  "name": "industry_finder_tests",
+  "description": null,
+  "eval_cases": [
+    {
+      "eval_id": "classification_test",
+      "conversation": [
+        {
+          "invocation_id": "e-53e2f9ac-b57f-49ec-9003-55a0509abc9f",
+          "user_content": {
+            "parts": [
+              {
+                "video_metadata": null,
+                "thought": null,
+                "inline_data": null,
+                "code_execution_result": null,
+                "executable_code": null,
+                "file_data": null,
+                "function_call": null,
+                "function_response": null,
+                "text": "Bidco.ltd is a B2B SaaS company selling a cloud-hosted project management platform to mid-sized enterprises in finance and healthcare. We have 120 employees and offices in the US, India and Kenya. Please classify us under the SASB SICS taxonomy "
+              }
+            ],
+            "role": "user"
+          },
+          "final_response": {
+            "parts": [
+              {
+                "video_metadata": null,
+                "thought": null,
+                "inline_data": null,
+                "code_execution_result": null,
+                "executable_code": null,
+                "file_data": null,
+                "function_call": null,
+                "function_response": null,
+                "text": "Industry Classification under SASB SICS:\n\n• Sector: Technology & Communications  \n• Industry: Software & IT Services  \n\nYour primary business activity (providing cloud-hosted software/IT services), product (project management platform), customer base (mid-sized enterprises in finance and healthcare), and delivery model (B2B SaaS) align with the Software & IT Services industry in the Technology & Communications sector."
+              }
+            ],
+            "role": null
+          },
+          "intermediate_data": {
+            "tool_uses": [
+              {
+                "id": "call_00jXsufD78OH78kmbFygL1ja",
+                "args": {
+                  "request": "Bidco.ltd is a B2B SaaS company selling a cloud-hosted project management platform to mid-sized enterprises in finance and healthcare. We have 120 employees and offices in the US, India and Kenya. Please classify us under the SASB SICS taxonomy."
+                },
+                "name": "Industry_Finder_Agent"
+              }
+            ],
+            "intermediate_responses": []
+          },
+          "creation_timestamp": 1750235561.120085
+        },
+        {
+          "invocation_id": "e-6aef4e34-1fa6-49cf-8c0b-94f3c1c684a8",
+          "user_content": {
+            "parts": [
+              {
+                "video_metadata": null,
+                "thought": null,
+                "inline_data": null,
+                "code_execution_result": null,
+                "executable_code": null,
+                "file_data": null,
+                "function_call": null,
+                "function_response": null,
+                "text": "Classify our business. We’re a fast-growing tech company."
+              }
+            ],
+            "role": "user"
+          },
+          "final_response": {
+            "parts": [
+              {
+                "video_metadata": null,
+                "thought": null,
+                "inline_data": null,
+                "code_execution_result": null,
+                "executable_code": null,
+                "file_data": null,
+                "function_call": null,
+                "function_response": null,
+                "text": "To classify your company under the SASB SICS taxonomy, I need a bit more detail about your business. Could you please describe:\n1. Your main business activity (e.g., what you do day-to-day)  \n2. The specific products or services you offer  \n3. Who your customers are (market or end users)  \n4. How you deliver your offering (business model or distribution)  \n\nWith those details, I can determine the appropriate sector and industry."
+              }
+            ],
+            "role": null
+          },
+          "intermediate_data": {
+            "tool_uses": [],
+            "intermediate_responses": []
+          },
+          "creation_timestamp": 1750235660.049346
+        },
+        {
+          "invocation_id": "e-2038e7c5-190e-452a-8642-58863809453d",
+          "user_content": {
+            "parts": [
+              {
+                "video_metadata": null,
+                "thought": null,
+                "inline_data": null,
+                "code_execution_result": null,
+                "executable_code": null,
+                "file_data": null,
+                "function_call": null,
+                "function_response": null,
+                "text": "Classify our business: We develop cloud-based customer relationship management (CRM) software for small and mid-sized businesses (SMBs). Our platform helps companies track leads, manage contacts, and automate sales workflows. We operate on a subscription-based SaaS model and deliver services exclusively through our website and mobile app"
+              }
+            ],
+            "role": "user"
+          },
+          "final_response": {
+            "parts": [
+              {
+                "video_metadata": null,
+                "thought": null,
+                "inline_data": null,
+                "code_execution_result": null,
+                "executable_code": null,
+                "file_data": null,
+                "function_call": null,
+                "function_response": null,
+                "text": "Based on your description, your company falls under:  \n• Sector: Technology & Communications  \n• Industry: Software & IT Services  \n\nThis classification reflects your core activity—developing and delivering SaaS-based CRM software via web and mobile channels to SMB customers."
+              }
+            ],
+            "role": null
+          },
+          "intermediate_data": {
+            "tool_uses": [
+              {
+                "id": "call_54FsnVN4BXdzRwLlwL8bqC6B",
+                "args": {
+                  "request": "We develop cloud-based customer relationship management (CRM) software for small and mid-sized businesses (SMBs). Our platform helps companies track leads, manage contacts, and automate sales workflows. We operate on a subscription-based SaaS model and deliver services exclusively through our website and mobile app. Please classify our business under SASB SICS taxonomy."
+                },
+                "name": "Industry_Finder_Agent"
+              }
+            ],
+            "intermediate_responses": []
+          },
+          "creation_timestamp": 1750235735.132158
+        },
+        {
+          "invocation_id": "e-b96aacb4-cab8-403d-9419-498cd0a5ad66",
+          "user_content": {
+            "parts": [
+              {
+                "video_metadata": null,
+                "thought": null,
+                "inline_data": null,
+                "code_execution_result": null,
+                "executable_code": null,
+                "file_data": null,
+                "function_call": null,
+                "function_response": null,
+                "text": "lassify our company: We design and manufacture solar panels for rooftop and industrial use. We install and maintain the systems ourselves."
+              }
+            ],
+            "role": "user"
+          },
+          "final_response": {
+            "parts": [
+              {
+                "video_metadata": null,
+                "thought": null,
+                "inline_data": null,
+                "code_execution_result": null,
+                "executable_code": null,
+                "file_data": null,
+                "function_call": null,
+                "function_response": null,
+                "text": "Your company’s SASB SICS classification is:  \n• Sector: Renewable Resources & Alternative Energy  \n• Industry: Solar Technology & Project Developers  \n\nThis reflects your activities of designing, manufacturing, installing, and maintaining solar panel systems."
+              }
+            ],
+            "role": null
+          },
+          "intermediate_data": {
+            "tool_uses": [
+              {
+                "id": "call_F2OmbiCBg5F3HX1DHt0q6a92",
+                "args": {
+                  "request": "We design and manufacture solar panels for rooftop and industrial use. We also install and maintain the systems ourselves. Please classify under the SASB SICS taxonomy."
+                },
+                "name": "Industry_Finder_Agent"
+              }
+            ],
+            "intermediate_responses": []
+          },
+          "creation_timestamp": 1750235798.077556
+        }
+      ],
+      "session_input": {
+        "app_name": "ESG",
+        "user_id": "user",
+        "state": {}
+      },
+      "creation_timestamp": 1750235921.773597
+    }
+  ],
+  "creation_timestamp": 1750235623.9930277
+}
